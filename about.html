@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobias.Odgaard</title>
+
+    <!--LINKING-->
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/fd54662810.js" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper white">
+                <a href="index.html" class="brand-logo center">
+                    <span class="logo black-text flow-text">Tobias Odgaard</span>
+                    <!-- <div class="divider"></div> -->
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons black-text">menu</i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html" class="list-item">Portfolio</a></li>
+                    <li><a href="playground.html" class="list-item">Playground</a></li>
+                    <li><a href="about.html" class="list-item">About Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Portfolio</a></li>
+        <li><a href="about.html">About Me</a></li>
+    </ul>
+    <div class="hide-on-med-and-down">
+        <iframe src="images/Resume.pdf"
+            style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px;border:none;"></iframe>
+    </div>
+    <div class="hide-on-large-only">
+
+        <div class="row">
+            <div class="col m12 s12">
+                <img class="responsive-img" src="images/Resume.jpg">
+                <a href="images/Resume.pdf" class="waves-effect waves-light card btn orange darken-3"
+                    download="Tobias Odgaard - Resume">Download as PDF <i class="fas fa-file-download"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+body,
+html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  overflow: auto;
+}
+
+h1,
+p {
+  font-family: fantasy;
+  text-align: center;
+  padding: 20px;
+}
+
+.list-item {
+  color: black;
+}
+
+ul {
+  margin: 0;
+}
+
+.hints {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+  margin-top: 1%;
+  font-size: larger;
+  /* background-color: blueviolet; */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cassette {
+  display: block;
+  margin-left: 65%;
+  margin-top: -20%;
+  width: 28%;
+}
+
+.output {
+  display: hidden;
+  height: 10px;
+}
+
+#buttonDiv {
+  /* background-color: aqua; */
+  margin-top: 1%;
+
+}
+
+#dropdownDiv {
+  margin-top: 1%;
+  /* background-color: aquamarine; */
+}
+
+#startbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: large;
+  font-family: fantasy;
+  padding: 20px;
+
+}
+
+#optionsSelect {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 50px;
+  font-size: large;
+  font-family: fantasy;
+}
